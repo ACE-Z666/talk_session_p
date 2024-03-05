@@ -3,8 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Of Gratitude</title>
+    <title>Code Of Gratitude</title><div class="e_w"></div>
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.57/build/spline-viewer.js"></script>
 <spline-viewer loading-anim-type="none" url="https://prod.spline.design/Xc5PcgiXLSKRnrPM/scene.splinecode"></spline-viewer>
 </body>
 </html>
+<style>
+  
+body {
+  margin: 0;
+  display: flex; /* Enable flexbox for centering */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Landscape mode styles */
+@media (orientation: landscape) {
+  .e_w {
+    width: 115%; /* Stretch to full width */
+    height: fit-content; /* Maintain original height */
+    /* Additional styles to prevent overflow (optional): */
+    overflow-x: hidden; /* Hide horizontal overflow */
+  }
+}
+
+/* Portrait mode styles */
+@media (orientation: portrait) {
+  .e_w {
+    /* Adjust width and height as needed */
+    width: 100%; /* Adjust width as needed */
+    height: 100vh; /* Fill viewport height */
+  }
+}
+
+</style>
